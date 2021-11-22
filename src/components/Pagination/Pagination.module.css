@@ -1,0 +1,28 @@
+.container {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    height: max-content;
+    display: flex;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.container a {
+    border: 1px solid #333333;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #333333;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.container a:hover {
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.active a {
+    color: #ffffff;
+    background-color: #333333;
+}
